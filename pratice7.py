@@ -1,14 +1,13 @@
 # Question7: Multiplication Table Generator
-# This program generates a multiplication table for a number provided by the user.
 
 def multiplication_table():
-    # Taking input from the user
+    
     number = int(input("Enter a number: "))
 
     print(f"Multiplication Table for {number}:")
-    # Looping through 1 to 10 to generate the table
-    for i in range(1, 11):
-        print(f"{number} x {i} = {number * i}")
+    
+    for i in range(1, 11):  #the loop multiplies 1 to 10 for the given number
+        print(f"{number} x {i} = {number * i}")  #we are using string formatting in the print function for understandable output 
 
-# Calling the multiplication table function
+
 multiplication_table()
